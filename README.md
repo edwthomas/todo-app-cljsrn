@@ -27,12 +27,16 @@ too and you should follow that if you intend to test on an Android device like I
 Once you have React Native, Android Studio and re-natal set up, you should be able to do the following once you have a device connected
 via USB to your local environment.
 
+
 `$ adb reverse tcp:8081 tcp:8081`
+
 `$ adb reverse tcp:3449 tcp:3449`
 
 If you want to use the stock Android emulator (AVD) replace "real" with "avd"
 `$ re-natal use-android-device real`
+
 `$ re-natal use-figwheel`
+
 `$ lein figwheel android`
 
 That should start [Figwheel](https://github.com/bhauman/lein-figwheel) (another amazing library). You then have to run
