@@ -33,6 +33,7 @@ via USB to your local environment.
 `$ adb reverse tcp:3449 tcp:3449`
 
 If you want to use the stock Android emulator (AVD) replace "real" with "avd"
+
 `$ re-natal use-android-device real`
 
 `$ re-natal use-figwheel`
